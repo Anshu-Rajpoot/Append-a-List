@@ -8,9 +8,9 @@ odd=[]
 for j in list:
     if j%2==0:
         even.append(j)
-        print("list of even",even)
     else:
         odd.append(j)
-        print("list of odd",odd)
+print("list of even",even)
+print("list of odd",odd)
         
     
