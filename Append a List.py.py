@@ -1,3 +1,5 @@
+#Creating a list of "n" size and the appending the elements in it. Furthur dividing the list into two parts "EVEN" and "ODD".
+
 list=[]
 size=int(input("enter the size of list:"))
 for i in range(1,size+1):
@@ -12,5 +14,3 @@ for j in list:
         odd.append(j)
 print("list of even",even)
 print("list of odd",odd)
-        
-    
